@@ -6,8 +6,9 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "yarn install",
-  "postCreateCommand": "yarn setup",
+  "postCreateCommand": "",
   "postAttachCommand": {
+    "setup": "yarn setup",
     "server": "yarn run dev"
   },
   "customizations": {
