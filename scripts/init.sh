@@ -14,7 +14,7 @@ while true; do
     echo -e "\nYou've inputted: ${On_Purple}$initials${NC}. \n"
     read -p "Does that look right? " yn
     case $yn in
-        [Yy]* ) echo "\nCreating branch and pushing to origin..."; git checkout -b $initials; git push --set-upstream origin $initials; break;;
+        [Yy]* ) echo -e "\nCreating branch and pushing to origin..."; git checkout -b $initials; git push --set-upstream origin $initials; break;;
         [Nn]* ) read -p "Okay! No worries. Please type it again " initials exit;;
         * ) echo "Please answer y or n.";;
     esac
