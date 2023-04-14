@@ -1,4 +1,5 @@
 {
+  "name": "Exygy FrontEnd Assessment Part 1",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
     "cpus": 4
@@ -7,20 +8,26 @@
   "updateContentCommand": "yarn install",
   "postCreateCommand": "",
   "postAttachCommand": {
-    "server": "yarn dev"
+    "server": "yarn run dev"
   },
   "customizations": {
     "codespaces": {
       "openFiles": [
         "README.md"
       ]
+    },
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+      ]
     }
   },
+  "forwardPorts": [3000],
   "portsAttributes": {
-    "5173": {
-      "label": "Application",
+    "3000": {
+      "label": "React App",
       "onAutoForward": "openPreview"
     }
   },
-  "forwardPorts": [5173]
 }
