@@ -30,5 +30,5 @@ export interface Listing {
 export const Listings = () => {
   const listingData = mockData as Listing[]
   // Please use this component as the root of your solution
-  return <h1>Good Luck!</h1>
+  return <h1>Good Luck! This is going great</h1>
 }
