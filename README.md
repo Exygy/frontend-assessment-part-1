@@ -1,6 +1,6 @@
 # Exygy Frontend Assessment
 
-This project was initialized with [Create React App](https://github.com/facebook/create-react-app) and Typescript.
+This project was initialized with [Vite](https://vitejs.dev/) and Typescript.
 
 [Bloom](https://www.exygy.com/housing) is an Exygy product that helps people learn about and apply for affordable housing listings. Taking inspiration from Bloom, this assessment asks you to build a visual directory of housing listings.
 
@@ -8,7 +8,7 @@ We want you to use this repo as a starting point to build a single page applicat
 
 Your result doesn’t have to be pixel-perfect, but we are interested in seeing how closely and cleanly you can recreate the design. This kind of ask is something you would find yourself doing in this role.
 
-Create React App sets up Jest and React Testing Library for you if you would like to write unit tests, but we are not asking for unit tests.
+We have installed Jest and React Testing Library if you would like to write unit tests, but we are not asking for unit tests.
 
 We know that any at-home work in an interview process requires your time, and we want to be respectful of that time while also ensuring this role is a good fit for you. Please do not spend more than 3 hours on this assessment. If you run out of time to complete what you wanted, that’s okay! We look forward to having a conversation with you about what you completed.
 
@@ -22,7 +22,7 @@ You can share your project with us as a repo on GitHub (@seanmalbert, @ludtkemor
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
